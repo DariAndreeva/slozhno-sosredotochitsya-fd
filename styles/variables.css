@@ -12,7 +12,7 @@
   --br-color: #ff0070; /* цвет  фона  */
   --text-color: #ff0070; /* цвет текста  */
   --text-color-title: #000028;
-  --text-color-section:  #FF0070;
+  --text-color-section: #ff0070;
   --title-color: #db00ff; /* цвет заголовка  */
   --article-color: #f1b2ce; /* цвет текса во всей статье   */
 
@@ -22,5 +22,6 @@
   --font-size-title: 116px; /* размер шрифта для заголовка */
   --font-weight-article: 400; /* вес шрифта статей */
 
-  --decorative-element:#ff0070;
+  --decorative-element: #ff0070;
+  --display-decor: block;
 }

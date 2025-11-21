@@ -5,7 +5,7 @@
 */
 
 :root.theme-dark {
-  --bg-image: url(/images/cover-image-dark.png); /* фон по макету */
+  --bg-image: url("../images/cover-image-dark.png"); /* фон по макету */
   --color-background-primary: #04002f; /* цвет фонового изображения  */
   --accent-color: 4px 4px 0 #ff0070; /* тень в заголовки и в статье*/
   --br-color: #ff0070; /* цвет  фона  */
@@ -14,12 +14,23 @@
   --text-color: #ff0070; /* цвет текста  */
   --title-color: #db00ff; /* цвет заголовка  */
   --article-color: #f1b2ce; /* цвет текса во всей статье   */
+  --article-link: #f1b2ce;
   --decorative-element: #ff0070;
+  --display-decor: block;
 }
-
-/* :root.theme-dark .header__theme-menu-button_type_dark {
-  border: 1px solid var(--text-color);
-  padding: 4px 8px;
-} */
-
-
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-image: url("../images/cover-image-dark.png"); /* фон по макету */
+    --color-background-primary: #04002f; /* цвет фонового изображения  */
+    --accent-color: 4px 4px 0 #ff0070; /* тень в заголовки и в статье*/
+    --br-color: #ff0070; /* цвет  фона  */
+    --text-color-title: #000028;
+    --text-color-section: #ff0070;
+    --text-color: #ff0070; /* цвет текста  */
+    --title-color: #db00ff; /* цвет заголовка  */
+    --article-color: #f1b2ce; /* цвет текса во всей статье   */
+    --article-link: #f1b2ce;
+    --decorative-element: #ff0070;
+    --display-decor: block;
+  }
+}

@@ -10,7 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 
-  --bg-image: url(/images/cover-image-light.png); /* фон по макету */
+  --bg-image: url("../images/cover-image-light.png"); /* фон по макету */
   --color-background-primary: #ffebf5; /* цвет фонового изображения  */
   --accent-color: 4px 4px 0 #ff8dcb; /* тень в заголовки и в статье*/
   --br-color: #ff8dcb; /* цвет фона  */
@@ -20,35 +20,27 @@
   --text-color-title: #353430;
   --title-color: #ffc2e6; /* цвет заголовка  */
   --article-color: #353430; /* цвет текса во всей статье   */
+  --article-link: #353430;
 
   --decorative-element: #353430; /* цвет элементов декора */
-}
-:root.theme-light .rec-indicator {
-  display: none;
-}
-
-
-
-:root.theme-light .header__theme-menu-button_type_light:hover {
-  border: 1px solid var(--text-color);
+  --display-decor: none;
 }
 
 @media (prefers-color-scheme: light) {
-  :root.theme-auto {
-    --bg-image: url(/images/cover-image-light.png);
-    --color-background-primary: #ffebf5;
-    --accent-color: 4px 4px 0 #ff8dcb;
-    --br-color: #ff8dcb;
-    --text-color: #353430;
+  :root {
+    --bg-image: url("../images/cover-image-light.png"); /* фон по макету */
+    --color-background-primary: #ffebf5; /* цвет фонового изображения  */
+    --accent-color: 4px 4px 0 #ff8dcb; /* тень в заголовки и в статье*/
+    --br-color: #ff8dcb; /* цвет фона  */
+
+    --text-color: #353430; /* цвет текста  */
     --text-color-section: #353430;
     --text-color-title: #353430;
-    --title-color: #ffc2e6;
-    --article-color: #353430;
+    --title-color: #ffc2e6; /* цвет заголовка  */
+    --article-color: #353430; /* цвет текса во всей статье   */
+    --article-link: #353430;
 
-    --decorative-element: #353430;
-  }
-
-  :root.theme-auto .rec-indicator {
-    display: none;
+    --decorative-element: #353430; /* цвет элементов декора */
+    --display-decor: none;
   }
 }
