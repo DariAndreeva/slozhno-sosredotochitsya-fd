@@ -9,6 +9,7 @@
   --color-background-primary: #04002f; /* цвет фонового изображения  */
   --accent-color: 4px 4px 0 #ff0070; /* тень в заголовки и в статье*/
   --br-color: #ff0070; /* цвет  фона  */
+  --border-color: rgba(255, 0, 112, 0.4);
   --text-color-title: #000028;
   --text-color-section: #ff0070;
   --text-color: #ff0070; /* цвет текста  */
@@ -24,6 +25,7 @@
     --color-background-primary: #04002f; /* цвет фонового изображения  */
     --accent-color: 4px 4px 0 #ff0070; /* тень в заголовки и в статье*/
     --br-color: #ff0070; /* цвет  фона  */
+    --border-color: 1px solid #ff007066;
     --text-color-title: #000028;
     --text-color-section: #ff0070;
     --text-color: #ff0070; /* цвет текста  */
